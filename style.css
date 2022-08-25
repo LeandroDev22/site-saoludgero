@@ -1,0 +1,159 @@
+body {
+    margin: 0 auto;
+    width: 920px;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#FAFAFA;
+}
+
+#topo {
+    width: 920px;
+    height: 170px;
+    background: #7b2623 url(../imagens/topo.png) no-repeat;
+    padding: 10px;
+    color: #F0FFFF;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px 0px 10px 0px;
+}
+
+/*INICIO Menus*/
+
+#menu-central {
+    margin-top: 150px;
+    text-decoration: none;
+    text-align: right;
+    font-size: 18px;
+    display: block;
+}
+
+#menu-central a {
+    text-decoration: none;
+    color: #F0FFFF;
+    padding: 5px;
+}
+
+#menu-central a:hover {
+    text-decoration: none;
+    color: #7b2623;
+    padding: 5px;
+    background: #F0FFFF;
+}
+
+#menu-esquerdo {
+    background: #E6E6E6;
+    width: 220px;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #7b2623;
+    padding: 5px;
+    margin: -512px 0px 10px 0px; 
+}
+
+#menu-esquerdo a {
+    text-decoration: none;
+    color: #7b2623;
+    display: block;
+}
+
+#menu-esquerdo a:hover {
+    text-decoration: none;
+    color: #F0FFFF;
+    background: #7b2623;
+
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;
+}
+
+/*FIM Menus*/
+
+
+/*INICIO Conteudos Principais*/
+
+#principal {
+    width: 680px;
+    height: 480px;
+    background: #E6E6E6;
+    margin: 0 0 10px 240px;
+    padding: 10px;
+    border: 1px solid #7b2623;
+}
+
+#principal-menus {
+    width: 920px;
+    height: 840px auto;
+    margin: 0px 0px 10px 0px;
+    background: #E6E6E6;
+    padding: 10px;
+    border: 1px solid #7b2623;
+}
+
+#igreja {
+    width: 920px;
+    height: 120px;
+    background: #E6E6E6;
+    border: 1px solid #7b2623;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+/*FIM Conteudos Principais*/
+
+
+/*INICIO Imagens*/
+
+#img {
+    width: 100px;
+    height: 120px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+    border: 1px solid #7b2623;
+}
+
+/*FIM Imagens*/
+
+#missas {
+    line-height: 21px;
+}
+
+#rodape {
+    width: 920px;
+    background: #7b2623;
+    padding: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: #F0FFFF;
+    border: 1px solid #7b2623;
+    margin: 0px 0px 10px 0px;
+}
+
+p {
+    margin: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+}
+
+#horario {
+    background: #E6E6E6;
+    width: 220px;
+    height: 223px;
+    float: left;
+    text-align: center;
+    border: 1px solid #7b2623;
+    margin: -245px 0px 10px 0px;
+    line-height: 35px;
+    padding: 5px;
+}
+
+#horario-formatacao {
+    line-height: 20px;
+}
+
+.voltar {
+    width: 920px;
+    text-align: center;
+}
